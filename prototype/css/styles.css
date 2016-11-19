@@ -315,6 +315,7 @@ a.bg-danger:hover {
 .panel-widget {
 	padding: 0;
 	position: relative;
+	font-size: x-large;
 }
 
 .panel-widget .panel-footer {
@@ -374,7 +375,7 @@ a.bg-danger:hover {
 }
 
 .widget-left {
-	height: 80px;
+	height: 120px;
 	padding-top: 15px;
 	text-align: center;
 	border-top-left-radius: 4px;
@@ -386,7 +387,7 @@ a.bg-danger:hover {
 	line-height: 1.6em;
 	margin: 0px;
 	padding: 20px;
-	height: 80px;
+	height: 120px;
 	color: #999;
 	font-weight: 300;
 	background: #fff;
