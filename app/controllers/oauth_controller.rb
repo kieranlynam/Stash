@@ -14,8 +14,6 @@ class OauthController < ApplicationController
         puts code
         puts '******************************'
 
-        OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
         conn = Faraday.new(:url => 'https://api.monzo.com') do |faraday|
             faraday.request  :url_encoded             # form-encode POST params
             faraday.response :logger                  # log requests to STDOUT
