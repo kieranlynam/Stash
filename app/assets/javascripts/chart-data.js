@@ -1,5 +1,5 @@
 var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
-	
+
 	var lineChartData = {
 			labels : ["Jan 15","Feb 15","Mar 15","Apr 15","May 15","Jun 15","Jul 15","Aug 15","Sep 15","Oct 15","Nov 15"],
 			datasets : [
@@ -53,7 +53,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 			]
 
 		}
-		
+
 	var barChartData = {
 			labels : ["January","February","March","April","May","June","July"],
 			datasets : [
@@ -72,7 +72,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
 				}
 			]
-	
+
 		}
 
 	var pieData = [
@@ -102,7 +102,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 				}
 
 			];
-			
+
 	var doughnutData = [
 					{
 						value: 300,
@@ -128,23 +128,20 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 						highlight: "#f6495f",
 						label: "Red"
 					}
-	
+
 				];
 
-window.onload = function(){
-	var chart1 = document.getElementById("line-chart").getContext("2d");
-	window.myLine = new Chart(chart1).Line(lineChartData, {
-		responsive: true
-	});
-	var chart2 = document.getElementById("bar-chart").getContext("2d");
-	window.myBar = new Chart(chart2).Bar(barChartData, {
-		responsive : true
-	});
-	var chart3 = document.getElementById("doughnut-chart").getContext("2d");
-	window.myDoughnut = new Chart(chart3).Doughnut(doughnutData, {responsive : true
-	});
-	var chart4 = document.getElementById("pie-chart").getContext("2d");
-	window.myPie = new Chart(chart4).Pie(pieData, {responsive : true
-	});
-	
-};
+// window.onload = function(){
+//
+// 	var chart2 = document.getElementById("bar-chart").getContext("2d");
+// 	window.myBar = new Chart(chart2).Bar(barChartData, {
+// 		responsive : true
+// 	});
+// 	var chart3 = document.getElementById("doughnut-chart").getContext("2d");
+// 	window.myDoughnut = new Chart(chart3).Doughnut(doughnutData, {responsive : true
+// 	});
+// 	var chart4 = document.getElementById("pie-chart").getContext("2d");
+// 	window.myPie = new Chart(chart4).Pie(pieData, {responsive : true
+// 	});
+//
+// };

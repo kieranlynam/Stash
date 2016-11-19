@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stash - Retailers</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/datepicker3.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+
+<!--Icons-->
+<script src="js/lumino.glyphs.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span>Stash</span>Admin</a>
+				<ul class="user-menu">
+					<li class="dropdown pull-right">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Profile</a></li>
+							<li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Settings</a></li>
+							<li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+							
+		</div><!-- /.container-fluid -->
+	</nav>
+		
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<ul class="nav menu">
+			<li class=""><a href="dashboard.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
+			<li class=""><a href="credit-card.html"><svg class="glyph stroked plus sign"><use xlink:href="#stroked-plus-sign"></use></svg> Add credit/bank card</a></li>
+			<li class="parent active">
+				<a href="#">
+					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Retailers
+				</a>
+				<ul class="children collapse" id="sub-item-1">
+					<li>
+						<a class="" href="retailers.html#clothing">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Clothing
+						</a>
+					</li>
+					<li>
+						<a class="" href="retailers.html#electrical">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Electrial
+						</a>
+					</li>
+					<li>
+						<a class="" href="retailers.html#finance">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Finance
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li role="presentation" class="divider"></li>
+			<li><a href="login.html"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Login Page</a></li>
+		</ul>
+
+	</div><!--/.sidebar-->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li class="active">Icons</li>
+			</ol>
+		</div><!--/.row-->
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Retailers</h1>
+			</div>
+		</div><!--/.row-->
+
+                <div class="panel panel-default chat">
+                        <div class="panel-heading" id="clothing"><svg class="glyph stroked two-messages"><use xlink:href="#stroked-two-messages"></use></svg> Clothing</div>
+                        <div class="panel-body">
+                                <ul>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/asos.png" alt="asos" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">asos</strong> 
+                                                                <small class="text-muted">Online fasion retailer</small>
+                                                        </div>
+                                                        <p>
+                                                                Get offers, discount codes, coupons and vouchers to shop at ASOS. Online fashion retailer ASOS is home to more than 60,000 branded and own label products across both womenswear and menswear.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/deb.png" alt="debenhams" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">debenhams</strong> 
+                                                                <small class="text-muted">Department store</small>
+                                                        </div>
+                                                        <p>
+                                                                Debenhams is one of the UK's leading department stores. If you're looking for fashion for all the family, beauty and fragrance or stylish designs for your home, you'll find everything you need at your local store.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/mns.png" alt="M&amp;S" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Marks and Spencer</strong> 
+                                                                <small class="text-muted">Department store</small>
+                                                        </div>
+                                                        <p>
+                                                                M&S are one of the biggest brands on the UK high street, offering a range of goods, from clothes to food to home furnishings and travel.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/very.png" alt="very" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">very</strong> <small class="text-muted">Online fasion retailer</small>
+                                                        </div>
+                                                        <p>
+                                                                Many people will remember Very by its former name of Littlewoods Direct before it changed to its new name in 2009. The much-loved brand promises free next day delivery on thousands of brands with offers for new customers. These, plus Very discount codes and Very cashback offers, could save buyers big money over time.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                </ul>
+                        </div>
+
+                </div>
+
+                <div class="panel panel-default chat">
+                        <div class="panel-heading" id="electrical"><svg class="glyph stroked two-messages"><use xlink:href="#stroked-two-messages"></use></svg> Electrical</div>
+                        <div class="panel-body">
+                                <ul>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/apple.png" alt="Apple" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Apple</strong> <small class="text-muted">Technology</small>
+                                                        </div>
+                                                        <p>
+                                                                Apple leads the world in innovation with iPhone, iPad, Mac, Apple Watch and Apple TV.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/argos.png" alt="User Avatar" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Argos</strong> <small class="text-muted">Department store</small>
+                                                        </div>
+                                                        <p>
+                                                                Get promo codes, discount codes and coupons to shop at Argos. Argos has been a key retailer in the UK for over 40 years. It is estimated that over 18 million households in the UK have an Argos catalogue and there are more than 800 stores throughout the UK and Ireland. You can search for listed stores by postcode here.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/currys.png" alt="Currys" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Currys</strong> <small class="text-muted">Electrical store</small>
+                                                        </div>
+                                                        <p>
+                                                                Searching for a new laptop, HD TV, washing machine or fridge freezer? If so, Currys will inevitably be a name which pops up in the mind of any potential shopper.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/game.png" alt="Game" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Game</strong> <small class="text-muted">Media store</small>
+                                                        </div>
+                                                        <p>
+                                                                Love playing video games? If so, you’ll be familiar with Game – the UK’s leading retailer of consoles, video games and gaming accessories. When shopping for gaming products, you can earn cashback and even make the most of Game promo codes and Game discount codes to make your money go further.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/zavvi.png" alt="zavvi" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">zavvi</strong> <small class="text-muted">Media store</small>
+                                                        </div>
+                                                        <p>
+                                                                Zavvi are an online store offering a range of products, all in one place for your convenience. They have some of the best deals around and with second to none customer service, there's no reason not to check their site out today. Use a Zavvi promotional code or Zavvi cashback to make sure you receive the greatest deals on all of your purchases.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                </ul>
+                        </div>
+
+                </div>
+
+                <div class="panel panel-default chat">
+                        <div class="panel-heading" id="finance"><svg class="glyph stroked two-messages"><use xlink:href="#stroked-two-messages"></use></svg> Finance</div>
+                        <div class="panel-body">
+                                <ul>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/halifax.png" alt="Halifax" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Halifax</strong> <small class="text-muted">Bank</small>
+                                                        </div>
+                                                        <p>
+                                                                Halifax are a bank.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/lloyds.png" alt="Lloyds" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">lloyds</strong> <small class="text-muted">Bank</small>
+                                                        </div>
+                                                        <p>
+                                                                LLoyds are a bank.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                        <li class="left clearfix">
+                                                <span class="chat-img pull-left">
+                                                        <img src="images/logos/tesco-bank.png" alt="Tesco Bank" class="img-circle" />
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                                <strong class="primary-font">Tesco Bank</strong> <small class="text-muted">Bank</small>
+                                                        </div>
+                                                        <p>
+                                                                Tesco bank are a bank.
+                                                        </p>
+                                                </div>
+                                        </li>
+                                </ul>
+                        </div>
+
+                </div>
+				
+	</div>	<!--/.main-->
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>
+	<script src="js/easypiechart.js"></script>
+	<script src="js/easypiechart-data.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script>
+		$('#calendar').datepicker({
+		});
+
+		!function ($) {
+		    $(document).on("click","ul.nav li.parent > a > span.icon", function(){          
+		        $(this).find('em:first').toggleClass("glyphicon-minus");      
+		    }); 
+		    $(".sidebar span.icon").find('em:first').addClass("glyphicon-plus");
+		}(window.jQuery);
+
+		$(window).on('resize', function () {
+		  if ($(window).width() > 768) $('#sidebar-collapse').collapse('show')
+		})
+		$(window).on('resize', function () {
+		  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
+		})
+	</script>	
+</body>
+
+</html>
